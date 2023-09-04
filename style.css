@@ -305,7 +305,6 @@ margin-top: -14px;
     font-size: 15px;
     font-weight: 400;
     line-height: 26px;
-    text-align: justify;
 }
 
 .a_propos .apropos_text:hover>h1::before {
@@ -354,7 +353,8 @@ margin-top: -14px;
     line-height: 30px;
     text-align: center;
     max-width: 900px;
-    margin: 0 auto;background-color: #94C41C;
+    margin: 0 auto;
+    background-color: #94C41C;
 }
 
 .mission_section .for-padding {
@@ -614,6 +614,12 @@ margin-top: -14px;
     margin-left: 20px;
     margin-right: 10px;
 }
+.contact .contact_input form h4 textarea::placeholder {
+    color: white;
+}                                                                                                             
+.contact .contact_input form h5 input::placeholder {
+    color: white;
+} 
 
 .contact .contact_input h5 {
     margin: 65px auto 0;
@@ -782,7 +788,7 @@ margin-top: -14px;
     background: transparent;
     border: medium none;
     border-radius: 3px;
-    color: #94C41C;
+    color: #ffffff;
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
@@ -813,127 +819,6 @@ margin-top: -14px;
     color: #fff;
 }
 
-.carosal_bottom {
-    background-image: url(img/carosal_bottom_bg.jpg);
-    background-size: 100% 100%;
-    height: 575px;
-}
-
-.carosal_bottom .item {
-    max-width: 750px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 80px;
-}
-
-.carosal_bottom .item img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-.carosal_bottom .item p {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 28px;
-}
-
-.carosal_bottom .item h5 {
-    margin-top: 21px;
-}
-
-.carosal_bottom .item h5 i {
-    color: #94C41C;
-    font-size: 60px;
-}
-
-.carosal_bottom .item h4 {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 13px;
-    text-transform: uppercase;
-}
-
-.carosal_bottom .item h6 {
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: #fff;
-}
-
-.carosal_bottom .owl-theme .owl-nav,
-.carosal_bottom .owl-theme .owl-dots {
-    display: none;
-
-}
-
-.letast_news .single_news {
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
-    margin-bottom: 130px;
-    margin-top: 70px;
-    border-radius: 10px;
-}
-
-.letast_news .single_news img {
-    width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.letast_news .single_news .texts {
-    padding: 30px;
-}
-
-.letast_news .single_news .texts p.date a {
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    text-decoration: none;
-    color: #000;
-}
-
-.letast_news .single_news .texts h3 {
-    color: #000;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 27px;
-    margin: 0;
-}
-
-.letast_news .single_news .texts p.texts {
-    color: #000;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-top: 15px;
-    padding: 0;
-}
-
-.letast_news .single_news .texts h3 a {
-    color: #000;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    text-decoration: none;
-}
-
-.letast_news .single_news:hover .texts h3 {
-    color: #94C41C;
-}
-
-.letast_news .single_news:hover .texts h3 a {
-    color: #94C41C;
-    text-decoration: underline;
-}
 
 .footer_carosal {
     background: #f5f5f5 none repeat scroll 0 0;
@@ -963,7 +848,7 @@ margin-top: -14px;
 }
 
 .footer .footer-charity-text p {
-    color: rgb(91, 91, 91);
+    color: rgb(200, 200, 200);
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -975,7 +860,7 @@ margin-top: -14px;
 }
 
 .footer .footer-charity-text p i {
-    color: #5b5b5b;
+    color: rgb(200, 200, 200);
     font-size: 18px;
     margin-right: 20px;
 }
@@ -985,7 +870,7 @@ margin-top: -14px;
 }
 
 .footer .footer-text h3 {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -1005,7 +890,7 @@ margin-top: -14px;
 }
 
 .footer .footer-text.one ul li i {
-    color: rgb(91, 91, 91);
+    color: rgb(200, 200, 200);
     font-size: 15px;
     left: -7px;
     position: absolute;
@@ -1013,7 +898,7 @@ margin-top: -14px;
 }
 
 .footer .footer-text.one ul li a {
-    color: rgb(91, 91, 91);
+    color: rgb(200, 200, 200);
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -1021,7 +906,7 @@ margin-top: -14px;
 }
 
 .footer .footer-text.two ul li a {
-    color: rgb(91, 91, 91);
+    color: rgb(200, 200, 200);
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -1041,7 +926,7 @@ margin-top: -14px;
 
 .footer .footer_bottom p {
     background: #232323 none repeat scroll 0 0;
-    color: #cacaca;
+    color: rgb(200, 200, 200);
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
