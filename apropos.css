@@ -1,0 +1,72 @@
+.contenair  {
+
+}
+.apropos_description p {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.apropos_description p  {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 40px;
+}
+.apropos_description .theme  {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 20px;
+}
+.apropos_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.apropos_plus {
+    margin-bottom: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;       
+}
+.apropos_description h3 {
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.apropos_description .for-padding {
+    padding: 87px 20px 107px;
+}
+.carosal {
+    background-image: url("img/headerbuki (1).jpg");
+    background-size: cover;
+    height: 400px;
+}
+.carosal .text1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.carosal .text1>h1 {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 210px;
+    font-size: 50px;
+
+}
+
+
+
+
