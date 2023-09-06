@@ -10,6 +10,9 @@
     margin: 0 auto;
     
 }
+.intitule{
+    font-size: small;
+}
 .justify{
     text-align: center;
 }
