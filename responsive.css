@@ -15,6 +15,31 @@
         max-width: 483px;
         
     }
+    .education_plus .education_description  {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        gap: 30px;
+      
+       
+    }
+  
+  
+    .education_plus .education_description  .text{
+        width: 40%;
+        text-align: justify;
+       
+       
+    }
+    .education_plus .education_description  .titre{
+        width: 30%;
+      
+       margin-top: -30px;
+        text-align: center;
+    }
+    
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -91,6 +116,101 @@
         padding: 16px;
            
          }
+
+         .education_plus .decouverte  {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: rgba(148, 196, 28, 0.2); 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+           
+        }
+        
+        .education_plus .education_description  {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            gap: 30px;
+          
+           
+        }
+        .education_plus .education_description  p{
+            font-family: "Roboto", sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            
+          
+           
+        }
+        .education_plus .education_description  .text{
+            width: 40%;
+            text-align: justify;
+           
+           
+        }
+        .education_plus .education_description  .titre{
+            width: 30%;
+          
+           margin-top: -90px;
+            text-align: center;
+        }
+        .education_plus .education_description  .titre h3{
+            font-family: "Roboto", sans-serif;
+           
+        
+           
+        }
+        .education_plus .decouverte  .titre{
+            display: flex;
+            flex-direction: column;
+           align-items: center;
+          
+           
+        }
+        .education_plus .decouverte  h3{
+           
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+           
+        }
+        
+        .education_plus .decouverte .images {
+          
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+        }
+        .education_plus .decouverte .images .img1 img {
+            display: inline-block;
+            margin-right: 10px; 
+            display: inline-block; 
+            width: 250px; 
+            height: 250px; 
+            margin-right: 10px; 
+        }
+        .education_plus .decouverte .images .img1  {
+        }
+        .education_plus .decouverte .images .img2  {
+            display: flex;
+            flex-direction: column;
+        }
+        .education_plus .decouverte .images .img2 img {
+            width:  170px; 
+            height: 175px; 
+        }
+        .education_plus .decouverte .images .img1 img {
+            width: 360px; 
+            height: 370px; 
+        }
+        
+        
+        
         
 }
 
@@ -257,4 +377,105 @@
         height: 560px;
         
     }
+    .education_plus .decouverte  {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: rgba(148, 196, 28, 0.2); 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+       
+    }
+    
+    .education_plus .education_description  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+       
+       
+      
+      padding-left: 20px;
+      padding-right: 20px;
+
+       
+    }
+    .education_plus .education_description  p{
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        
+        
+      
+       
+    }
+    .education_plus .education_description  .text{
+       
+        width: 100%;
+        text-align: center;
+       
+
+    }
+    .education_plus .education_description  .titre{
+        width: 100%;
+        text-align: center;
+        height: 50px;
+      
+
+    }
+    .education_plus .education_description  .titre h3{
+        font-family: "Roboto", sans-serif;
+       
+    
+       
+    }
+    .education_plus .decouverte  .titre{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+      
+       
+    }
+    .education_plus .decouverte  h3{
+       
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+       
+    }
+    
+    .education_plus .decouverte .images {
+      
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .education_plus .decouverte .images .img1 img {
+        display: inline-block;
+        margin-right: 10px; 
+        display: inline-block; 
+        width: 250px; 
+        height: 250px; 
+        margin-right: 10px; 
+    }
+   
+    .education_plus .decouverte .images .img2  {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .education_plus .decouverte .images .img2 img {
+        width: 300px; 
+        height: 300px; 
+    }
+    .education_plus .decouverte .images .img1 img {
+        width: 300px; 
+        height: 300px; 
+    }
+    
+    
+    
 }

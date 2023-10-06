@@ -449,9 +449,10 @@ margin-top: -14px;
     text-align: center
 }
 
+
 .branches .our_cuauses_single .item .for_padding {
     padding: 0 30px;
-    height: 200px;
+    height: 250px;
 }
 
 .branches .progress {
@@ -986,3 +987,100 @@ margin-top: -14px;
 .footer_carosal_icon .owl-nav{
     display: none;
 }
+
+
+.education_plus .decouverte  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(148, 196, 28, 0.2); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+   
+}
+
+.education_plus .education_description  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap: 30px;
+  
+   
+}
+.education_plus .education_description  p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    
+  
+   
+}
+.education_plus .education_description  .text{
+    width: 30%;
+    text-align: justify;
+   
+   
+}
+.education_plus .education_description  .titre{
+    width: 20%;
+    padding-bottom: 110px;
+    
+    text-align: center;
+}
+.education_plus .education_description  .titre h3{
+    font-family: "Roboto", sans-serif;
+   
+
+   
+}
+.education_plus .decouverte  .titre{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  
+   
+}
+.education_plus .decouverte  h3{
+   
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.education_plus .decouverte .images {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.education_plus .decouverte .images .img1 img {
+    display: inline-block;
+    margin-right: 10px; 
+    display: inline-block; 
+   
+    margin-right: 10px; 
+}
+
+.education_plus .decouverte .images .img2  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.education_plus .decouverte .images .img2 img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 2px;
+}
+.education_plus .decouverte .images .img1 img {
+    width: 420px; 
+    height: 420px;
+    border-radius: 2px;
+ 
+}
+
+
